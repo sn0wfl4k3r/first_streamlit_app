@@ -38,7 +38,6 @@ try:
 except URLError as e:
   stramlit.error()
 
-streamlit.text(fruityvice_response.json()) #just writes the data to screen
 streamlit.stop()
 
 
